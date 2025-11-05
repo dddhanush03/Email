@@ -74,7 +74,7 @@ export default async function handler(req, res) {
     `;
 
     await transporter.sendMail({
-      from: `"G360 Technologies" <${process.env.EMAIL_USER}>`,
+      from: `"G360 Technologiess" <${process.env.EMAIL_USER}>`,
       to: formData.email,
       subject: "Thank you for contacting G360 Technologies!",
       html: userHtml,
